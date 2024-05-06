@@ -70,8 +70,9 @@ let name2 = "John"
 
 console.log("name1 è uguale a name2?", name1===name2) /* FALSE */
 
-console.log(name2.toLowerCase()) /* Usanso ".toLowerCase" è possibile mettere in minuscolo tutte le lettere di una stringa testuale*/
+console.log(name1===name2.toLowerCase())
+
+ console.log(name2.toLowerCase()) /* Usanso ".toLowerCase" è possibile mettere in minuscolo tutte le lettere di una stringa testuale*/
 console.log(name1.toLowerCase())
-
-
-console.log("name1 è uguale a name2?", name1!==name2)
+ 
+console.log("name1 e name2 sono uguali?",name1===name2.toLowerCase())
